@@ -16,6 +16,7 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41cd52)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+[![Latest release](https://img.shields.io/github/v/release/ycwei5/kapture?label=download&color=6c5ce7)](https://github.com/ycwei5/kapture/releases/latest)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ycwei5/kapture/pulls)
 
 </div>
@@ -82,6 +83,21 @@
 
 > **环境要求：** Kubuntu / Ubuntu / KDE 上的 **X11 会话**。
 > 用 `echo $XDG_SESSION_TYPE` 检查，应输出 `x11`。
+
+### 方式一 —— `.deb` 安装包（推荐）
+
+从 [**Releases**](https://github.com/ycwei5/kapture/releases/latest) 页面下载最新的
+**`kapture_*_all.deb`**，然后：
+
+```bash
+sudo apt install ./kapture_1.0.0_all.deb
+```
+
+`apt` 会自动拉取 Tesseract（中文 + 英文）、ffmpeg、字体和 Qt 运行库。首次安装时会自动创建独立的
+Python 环境，因此**安装过程需要联网**。装好后在应用菜单打开 **Kapture**，或在终端运行 `kapture`。
+卸载用 `sudo apt remove kapture`。
+
+### 方式二 —— 从源码安装
 
 ```bash
 # 1. 克隆

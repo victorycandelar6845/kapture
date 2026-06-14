@@ -17,6 +17,7 @@ all in one lightweight PyQt5 app.
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41cd52)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+[![Latest release](https://img.shields.io/github/v/release/ycwei5/kapture?label=download&color=6c5ce7)](https://github.com/ycwei5/kapture/releases/latest)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ycwei5/kapture/pulls)
 
 </div>
@@ -85,6 +86,22 @@ line width, plus undo and clear.
 
 > **Requirements:** an **X11 session** on Kubuntu / Ubuntu / KDE.
 > Check with `echo $XDG_SESSION_TYPE` — it should print `x11`.
+
+### Option A — `.deb` package (recommended)
+
+Download the latest **`kapture_*_all.deb`** from the
+[**Releases**](https://github.com/ycwei5/kapture/releases/latest) page, then:
+
+```bash
+sudo apt install ./kapture_1.0.0_all.deb
+```
+
+`apt` pulls in Tesseract (Chinese + English), ffmpeg, fonts and the Qt runtime automatically.
+On first install it builds an isolated Python environment, so **an internet connection is
+required during installation**. Launch **Kapture** from your app menu, or run `kapture`.
+Uninstall with `sudo apt remove kapture`.
+
+### Option B — from source
 
 ```bash
 # 1. Clone
