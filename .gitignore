@@ -18,3 +18,7 @@ __pycache__/
 # Runtime output (captures, recordings)
 *.mp4
 *.gif.tmp
+
+# Build artifacts
+*.deb
+build/
